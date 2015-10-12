@@ -23,7 +23,7 @@
 			
 		}
 
-		#page5{
+		#splash{
 			display: initial;
 
 		}
@@ -170,16 +170,6 @@
 		  	
 		  position: absolute;
 		  left: 1500px;
-		  top: 55px;
-		  width: 200px;
-		  height: 200px;
-
-		}
-
-		#mars2{
-		  	
-		  position: absolute;
-		  left: -500px;
 		  top: 55px;
 		  width: 200px;
 		  height: 200px;
