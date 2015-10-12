@@ -179,11 +179,12 @@
 		#mars2{
 		  	
 		  position: absolute;
-		  left: -200px;
+		  left: -300px;
 		  top: 55px;
 		  width: 200px;
 		  height: 200px;
-		  z-index: 100;
+		  z-index: 2;
+		  
 
 		}
 

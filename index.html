@@ -254,28 +254,21 @@
 					var newPos = marsPos + 25 + "px";
 					$("#mars").css("left", newPos);
 
+
+					var marsPos2 = $("#mars2").offset().left;
+
+					var newPos2 = marsPos2 + 25 + "px";
+					$("#mars2").css("left", newPos2);
+
 				}, 200);
 
 				return false;
 			});
 
-			$('#left').bind('touchend mouseup', function () {
+			$('#left').bind('touchend mouseup', function() {
 				clearInterval(timeout);
 				return false;
 			});
-
-			/*  button click if mars in viewport*/
-			//			$("#mars-in-viewport").click(function () {
-			//				if ($("#mars").isOnScreen()) {
-			//
-			//					$("#page5").hide("slide", {
-			//						direction: "up"
-			//					}, 100);
-			//					$("#page6").show("slide", {
-			//						direction: "right"
-			//					}, 1000).css("display", "block");
-			//				}
-			//			});
 
 
 			$.fn.isOnScreen = function () {
@@ -439,6 +432,7 @@
 			<p id="progressbar1" class="progressbar"></p>
 		</div>
 		<img id="mars" src="imgs/Mars.png">
+		<img id="mars2" src="imgs/Mars.png">
 
 		<!-- <img id="cockpit" src="imgs/frame2.transparent.png"> -->
 
