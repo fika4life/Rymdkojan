@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<audio id="audio" controls>
+  <source src="Jeopardy-theme-song.ogg" type="audio/ogg">
+  <source src="Jeopardy-theme-song.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+
+</audio>
+<script type="text/javascript">
+
+var audio = document.getElementById('audio');
+
+function redirectHandler() {
+  window.location = 'transitiontemplate.html';
+}
+
+audio.addEventListener('ended', redirectHandler, false);
+</script>
+</body>
+</html>

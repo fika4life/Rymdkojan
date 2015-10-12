@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Rymdkojan!</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="mobile-web-app-capable" content="yes">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+
+</head>
+<body>
+
+<div id="splash">
+
+	<audio id="splash-audio" controls>
+ <!--  <source src="sound/space.ogg" type="audio/ogg"> -->
+  <source src="sound/space.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+
+	</audio>
+	<img src="imgs/frame1.2.s.png">
+</div> <!-- splash -->
+
+<div id="page1">
+
+	<audio id="audio1" controls>
+<!--   <source src="sound/fil1.ogg" type="audio/ogg"> -->
+  <source src="sound/fil1.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+
+	</audio>
+	<img  src="imgs/frame2.s.png">
+</div> <!-- page1 -->
+
+<div id="page2">
+
+	<audio id="audio2" controls>
+  <!--  <source src="sound/fil2.ogg" type="audio/ogg"> -->
+  <source src="sound/fil23.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+
+	</audio>
+
+	<img src="imgs/frame3.s.png">
+</div> <!-- page2 -->
+
+<div id="page3">
+
+	<audio id="audio3" controls>
+  <!-- <source src="sound/fil4.ogg" type="audio/ogg"> -->
+  <source src="sound/fil4.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+
+	</audio>
+
+	<img  src="imgs/frame4.1.s.png">
+</div> <!-- page3 -->
+
+<div id="page4">
+
+	<audio id="audio4" controls>
+ <!--  <source src="sound/fil5.ogg" type="audio/ogg"> -->
+  <source src="sound/fil5.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+
+	</audio>
+
+	
+	<button id="button-4">PRESS ME</button>
+	<img  src="imgs/frame2.s.png">
+</div> <!-- page4 -->
+
+<div id="page5">
+<audio id="audio5" controls>
+<!--   <source src="sound/fil6.ogg" type="audio/ogg">
+ -->  <source src="sound/fil678.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+
+	</audio>
+		
+	<div class="controls">
+		<button id="left" class="btn btn-success">LEFT</button>
+		<button id="right" class="btn btn-warning">RIGHT</button>
+		<button id="mars-in-viewport">MARS</button>
+		<input type="range" orient="vertical" value=0.0 min="0.0" max="1.0" step="0.001" id="rangeInput" />
+		<input type="text" id="rangeInput" />
+	</div>
+	<img id="mars" src="imgs/Mars.png">
+
+
+	<!-- <img id="cockpit" src="imgs/frame2.transparent.png"> -->
+	
+	<div class="relative"></div>
+	<div id="space">
+	  <div class="stars"></div>
+	  <div class="stars"></div>
+	  <div class="stars"></div>
+	  <div class="stars"></div>
+	  <div class="stars"></div>
+	</div>
+
+	<img id="mars2" src="imgs/Mars.png">
+
+</div><!-- page5 -->
+
+<div id="page6">
+
+	<audio id="audio4" controls>
+
+  <source src="sound/fil9.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+
+	</audio>
+
+	<img src="imgs/frame2.s.png">
+	<button id="button-4">PRESS ME</button>
+</div> <!-- page6 -->
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"></script>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="scripts.js"></script>
+
+<script src="jquery.viewport.js" type="text/javascript"></script>
+
+
+
+
+</body>
+</html>
