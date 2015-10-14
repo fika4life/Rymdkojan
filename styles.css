@@ -22,8 +22,8 @@
 			display: none;
 			
 		}
-
-		#page5{
+		/*change this to determine which page to show first*/
+		#splash{
 			display: initial;
 
 		}
