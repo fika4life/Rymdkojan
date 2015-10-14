@@ -169,7 +169,7 @@
 		#mars{
 		  	
 		  position: absolute;
-		  left: 1500px;
+		  left: 2000px;
 		  top: 55px;
 		  width: 200px;
 		  height: 200px;
@@ -184,7 +184,7 @@
 		  width: 200px;
 		  height: 200px;
 		  z-index: 2;
-		  
+		  visibility: hidden;
 
 		}
 
