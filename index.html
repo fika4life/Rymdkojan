@@ -201,7 +201,7 @@
 				$("input[type=text]").val(window.speedInput.val());
 
 
-				var anidur = "2s";
+				var anidur = "1s";
 				anidur = anidur.slice(0, -1);
 				anidur = 4 / (anidur * window.speedInput.val());
 				anidur = anidur + "s";
@@ -214,19 +214,19 @@
 				e.preventDefault();
 				timeout = setInterval(function () {
 					var offset = $("#space").offset().left;
-					offset = offset - 30 + "px";
+					offset = offset - 20 + "px";
 
 					$("#space").css("left", offset);
 
 
 					var marsPos = $("#mars").offset().left;
 
-					var newPos = marsPos - 25 + "px";
+					var newPos = marsPos - 15 + "px";
 					$("#mars").css("left", newPos);
 
 					var marsPos2 = $("#mars2").offset().left;
 
-					var newPos2 = marsPos2 - 25 + "px";
+					var newPos2 = marsPos2 - 15 + "px";
 					$("#mars2").css("left", newPos2);
 
 
