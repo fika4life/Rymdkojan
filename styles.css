@@ -189,7 +189,7 @@
 		}
 
 		#cockpit{
-			z-index: 1000;
+			z-index: 597;
 			position: absolute;
 			left: -10px;
 			top: 20px;
@@ -197,4 +197,6 @@
 
 
 	
-		
+#audio5 {
+	z-index: 999;
+}
